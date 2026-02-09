@@ -2,115 +2,129 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Dr. Sanjay Khanna
+  given: Sanjay
+  family: Khanna
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
+  - MBBS
+  - MFPM
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🔬"
+role: Medical Oncologist | AI in Healthcare Researcher
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Medical Oncology Registrar on the UK's first dual-accredited training pathway, combining 
+  clinical specialty training with pharmaceutical industry experience. Building LLM-based 
+  decision support tools for cancer screening with a focus on equity and implementation.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Royal Marsden Hospital & ICR
+    url: https://www.icr.ac.uk/
+  - name: Imperial NHS Trust
+    url: https://www.imperial.nhs.uk/
+  - name: Faculty of Pharmaceutical Medicine
+    url: https://www.fpm.org.uk/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:contact@example.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/drsanjaykhanna/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=gL6jTOUAAAAJ&hl=en
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Cancer Screening & Early Detection
+  - AI/LLM in Healthcare
+  - Health Policy & Regulation
+  - Clinical Trial Innovation
+  - Pharmaceutical Strategy
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MD(Res) - Industry-funded Research Doctorate
+    institution: Royal Marsden Hospital & Institute of Cancer Research
+    start: 2023-01-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Research on blood-based cancer screening: qualitative studies using choice architecture, 
+      population microsimulation modelling, and LLM-based decision support tools.
+  - degree: Diploma in Pharmaceutical Medicine
+    institution: Faculty of Pharmaceutical Medicine
+    start: 2020-01-01
+    end: 2021-12-31
+    summary: |
+      Member of the Faculty of Pharmaceutical Medicine (MFPM).
+  - degree: Medical Oncology Specialty Training
+    institution: Imperial NHS Trust
+    start: 2019-01-01
+    summary: |
+      UK's first hybrid oncology training programme combining clinical excellence with 
+      pharmaceutical industry experience.
+  - degree: MBBS Medicine
+    institution: Medical School
+    end: 2019-01-01
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
+  - role: Medical Oncology Specialty Registrar
+    org: Imperial NHS Trust / Royal Marsden Hospital
+    start: 2019-01-01
+    summary: |
+      UK's first dual-accredited training pathway. Providing direct patient care while 
+      conducting industry-funded research on cancer screening and AI in healthcare.
+  - role: Multiple Strategic Roles (6+ years)
+    org: Roche
+    start: 2018-01-01
+    summary: |
+      **Medical Affairs** - Scientific communications and medical education
+      
+      **Clinical Development** - Second-in-command for 80,000-participant blood-based early detection trial
+      
+      **Public Affairs** - Healthcare Evolution Squad, system-shaping initiatives
+      
+      **Pharma Partnering** - Search & Evaluation Lead, portfolio mentor for StartCodon accelerator (Cambridge)
+  - role: Portfolio Mentor
+    org: StartCodon Accelerator
     start: 2020-01-01
+    end: 2023-12-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Three years mentoring early-stage life sciences companies at Cambridge's leading accelerator.
 
 skills:
-  - name: Technical Skills
+  - name: Clinical
     items:
-      - label: Python
+      - label: Medical Oncology
         level: 5
-      - label: Machine Learning
+      - label: Clinical Trials
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: Patient Care
+        level: 5
+  - name: Research & Innovation
     items:
-      - label: Academic Writing
+      - label: AI/LLM in Healthcare
+        level: 4
+      - label: Population Health Modelling
+        level: 4
+      - label: Qualitative Research
+        level: 4
+  - name: Industry
+    items:
+      - label: Medical Affairs
         level: 5
-      - label: Conference Presentations
+      - label: Regulatory & Market Access
         level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: Pharmaceutical Strategy
+        level: 5
 
 languages:
   - name: English
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: UK's First Hybrid Oncology Training Programme
+    awarder: NHS / Roche
+    date: "2019-01-01"
+    summary: Pioneer of the first dual-accredited oncology training model combining NHS clinical training with pharmaceutical industry experience.
     icon: hero/trophy
